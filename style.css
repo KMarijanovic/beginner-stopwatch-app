@@ -1,0 +1,71 @@
+body {
+	background: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+	width: 500px;
+	border-radius: 5px;
+}
+
+.unsplash,
+a {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+	text-decoration: none;
+	font-size: 0.7rem;
+}
+
+a:hover {
+	color: grey;
+}
+
+.container {
+	width: 500px;
+	margin: 15px auto;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.stopwatch {
+	font-size: 4rem;
+	margin: 10px 0px;
+}
+
+button {
+	width: 150px;
+	height: 50px;
+	background: transparent;
+	color: white;
+	text-transform: uppercase;
+	border: 2px solid white;
+	border-radius: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	outline: none;
+}
+
+button:hover {
+	border-color: darkcyan;
+}
+
+.disabled {
+	color: crimson;
+	text-transform: uppercase;
+	border-color: grey;
+}
+
+.disabled-start {
+	color: lightgreen;
+	text-transform: uppercase;
+	border-color: grey;
+}
